@@ -1,0 +1,45 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+.con {
+    display: flex;
+    justify-content: space-between;
+    background-color: aqua;
+    align-items: center;
+}
+
+.con .links {
+    display: flex;
+    align-items: center;
+}
+
+.con .links li {
+    list-style: none;
+    margin: 1rem;
+}
+
+.con .links li a {
+    text-decoration: none;
+    color: black;
+}
+
+.con .links i {
+    color: black;
+    cursor: pointer;
+}
+
+
+@media (max-width:800px) {
+    .con .links {
+        display: none;
+    }
+
+    .con .links i {
+        display: block;
+
+    }
+
+
+}
